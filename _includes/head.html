@@ -1,0 +1,35 @@
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="Ireland, Ireland, Europe, startups, entrepreneurs, innovation" />
+
+    <meta property="og:title" content="Founded in Ireland - The most innovative startups in Ireland" />
+    <meta property="og:description" content="Ireland is Europe's hot new startup scene. We list innovative startups with Irish roots." />
+    <meta property="og:site_name" content="Founded in Ireland" />
+    <meta property="og:image" content="http://foundedinireland.com/static/images/avatar.png" />
+
+    <meta name="twitter:site" content="@foundedireland" />
+    <meta name="twitter:title" content="Founded in Ireland - The most innovative startups in Ireland" />
+
+    <meta name="author" content="Andrew Fulton" />
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta property="og:url" content="http://foundedinireland.com/" />
+    <meta property="og:type" content="website" />
+
+    <script>
+    /**
+    * Function that tracks a click on an outbound link in Google Analytics.
+    */
+    var trackOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url);
+    }
+    </script>
+</head>

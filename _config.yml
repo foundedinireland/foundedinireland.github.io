@@ -1,0 +1,12 @@
+# Site settings
+title: Founded in Ireland - The most innovative startups in Ireland
+email: andrew@foundedinireland.com
+description: > # this means to ignore newlines until "baseurl:"
+  Ireland is Europe's hot new startup scene. We list innovative startups with Irish roots.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://foundedinireland.com" # the base hostname & protocol for your site
+twitter_username: foundedireland
+github_username:  foundedinireland
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+      {% include header.html %}
+
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </div>
+
+      {% include footer.html %}
+    </div>
+
+    <script type="text/javascript" src="/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/smooth_scroll.js"></script>
+
+    <script>
+      (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
+    </script>
+    <!-- TODO google analytics -->
+
+  </body>
+
+</html>
